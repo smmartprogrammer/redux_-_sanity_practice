@@ -1,4 +1,11 @@
+const { Domain } = require('domain')
+
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+
+    images: {
+        domains:["cdn.sanity.io"]
+    }
+}
 
 module.exports = nextConfig
